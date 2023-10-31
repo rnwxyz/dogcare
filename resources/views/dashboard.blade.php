@@ -10,11 +10,11 @@
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="flex items-center">
                     <div class="flex-none p-6">
-                        <img src="/img/logo.png" alt="" width="2000px">
+                        <img src="/img/logo.png" alt="" width="500px">
                     </div>
                     <div class="p-6 text-gray-900 dark:text-gray-100">
                         <h1 class="text-3xl font-bold leading-tight">
-                            {{ __('Apa itu DogeCare ?') }}
+                            {{ __('Apa itu DogCare ?') }}
                         </h1>
                         <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
                             {{ __('DogCare adalah sebuah aplikasi web yang bertujuan untuk membantu pemilik anjing dalam mendeteksi penyakit pada hewan peliharaan mereka. Aplikasi ini berfungsi sebagai sistem pakar yang dapat memberikan rekomendasi dan informasi mengenai kemungkinan penyakit yang mungkin dialami oleh anjing berdasarkan gejala yang diberikan oleh pemilik.') }}
