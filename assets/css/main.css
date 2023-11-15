@@ -614,6 +614,20 @@ section {
   padding-bottom: 0;
 }
 
+.why-us .why-section-header {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.why-us .why-form .why-gejala {
+  padding-top: 20px;
+}
+
+.why-us .why-button {
+  padding-top: 20px;
+}
+
 .why-us .img-bg {
   min-height: 500px;
   background-size: cover;

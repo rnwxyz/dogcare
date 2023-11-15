@@ -60,12 +60,14 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="dashboard.php" class="active">Home</a></li>
-          <li><a href="about.php">About</a></li>
+          <li><a href="about.php">Diagnosis</a></li>
           <li><a href="services.php">Services</a></li>
           <li><a href="portfolio.php">Portfolio</a></li>
           <li><a href="team.php">Team</a></li>
           <li><a href="blog.php">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+
+          <!-- Don't use Navbar -->
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -81,7 +83,8 @@
               <li><a href="#">Dropdown 3</a></li>
               <li><a href="#">Dropdown 4</a></li>
             </ul>
-          </li>
+          </li> -->
+
           <li><a href="contact.php">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
@@ -94,13 +97,13 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-4">
-          <h2 data-aos="fade-up">Focus On What Matters</h2>
+          <h2 data-aos="fade-up">Sistem Pakar Dog Care</h2>
           <blockquote data-aos="fade-up" data-aos-delay="100">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis cum recusandae eum laboriosam voluptatem repudiandae odio, vel exercitationem officiis provident minima. </p>
+            <p>Sistem pakar membantu mendiagnosis anjing kesayangan anda pada penyakit-penyakit yang berbahaya. Ayo mulai melakukan diagnosis</p>
           </blockquote>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="#about" class="btn-get-started">Get Started</a>
-            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            <a href="about.php" class="btn-get-started">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=YpScT7jQMec" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
 
         </div>
