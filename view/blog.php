@@ -19,15 +19,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="../assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Nova
@@ -44,7 +44,7 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.php" class="logo d-flex align-items-center">
+      <a href="dasboard.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="d-flex align-items-center">Nova</h1>
@@ -55,7 +55,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.php">Home</a></li>
+          <li><a href="dashboard.php">Home</a></li>
           <li><a href="about.php">About</a></li>
           <li><a href="services.php">Services</a></li>
           <li><a href="portfolio.php">Portfolio</a></li>
@@ -93,7 +93,7 @@
 
         <h2>Blog</h2>
         <ol>
-          <li><a href="index.php">Home</a></li>
+          <li><a href="dashboard.php">Home</a></li>
           <li>Blog</li>
         </ol>
 
@@ -114,7 +114,7 @@
                 <article class="d-flex flex-column">
 
                   <div class="post-img">
-                    <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+                    <img src="../assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
                   </div>
 
                   <h2 class="title">
@@ -146,7 +146,7 @@
                 <article class="d-flex flex-column">
 
                   <div class="post-img">
-                    <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
+                    <img src="../assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
                   </div>
 
                   <h2 class="title">
@@ -210,7 +210,7 @@
                 <article class="d-flex flex-column">
 
                   <div class="post-img">
-                    <img src="assets/img/blog/blog-4.jpg" alt="" class="img-fluid">
+                    <img src="../assets/img/blog/blog-4.jpg" alt="" class="img-fluid">
                   </div>
 
                   <h2 class="title">
@@ -242,7 +242,7 @@
                 <article class="d-flex flex-column">
 
                   <div class="post-img">
-                    <img src="assets/img/blog/blog-5.jpg" alt="" class="img-fluid">
+                    <img src="../assets/img/blog/blog-5.jpg" alt="" class="img-fluid">
                   </div>
 
                   <h2 class="title">
@@ -274,7 +274,7 @@
                 <article class="d-flex flex-column">
 
                   <div class="post-img">
-                    <img src="assets/img/blog/blog-6.jpg" alt="" class="img-fluid">
+                    <img src="../assets/img/blog/blog-6.jpg" alt="" class="img-fluid">
                   </div>
 
                   <h2 class="title">
@@ -344,7 +344,7 @@
                 <div class="mt-3">
 
                   <div class="post-item mt-3">
-                    <img src="assets/img/blog/blog-recent-1.jpg" alt="" class="flex-shrink-0">
+                    <img src="../assets/img/blog/blog-recent-1.jpg" alt="" class="flex-shrink-0">
                     <div>
                       <h4><a href="blog-post.php">Nihil blanditiis at in nihil autem</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
@@ -352,7 +352,7 @@
                   </div><!-- End recent post item-->
 
                   <div class="post-item">
-                    <img src="assets/img/blog/blog-recent-2.jpg" alt="" class="flex-shrink-0">
+                    <img src="../assets/img/blog/blog-recent-2.jpg" alt="" class="flex-shrink-0">
                     <div>
                       <h4><a href="blog-post.php">Quidem autem et impedit</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
@@ -360,7 +360,7 @@
                   </div><!-- End recent post item-->
 
                   <div class="post-item">
-                    <img src="assets/img/blog/blog-recent-3.jpg" alt="" class="flex-shrink-0">
+                    <img src="../assets/img/blog/blog-recent-3.jpg" alt="" class="flex-shrink-0">
                     <div>
                       <h4><a href="blog-post.php">Id quia et et ut maxime similique occaecati ut</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
@@ -368,7 +368,7 @@
                   </div><!-- End recent post item-->
 
                   <div class="post-item">
-                    <img src="assets/img/blog/blog-recent-4.jpg" alt="" class="flex-shrink-0">
+                    <img src="../assets/img/blog/blog-recent-4.jpg" alt="" class="flex-shrink-0">
                     <div>
                       <h4><a href="blog-post.php">Laborum corporis quo dara net para</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
@@ -376,7 +376,7 @@
                   </div><!-- End recent post item-->
 
                   <div class="post-item">
-                    <img src="assets/img/blog/blog-recent-5.jpg" alt="" class="flex-shrink-0">
+                    <img src="../assets/img/blog/blog-recent-5.jpg" alt="" class="flex-shrink-0">
                     <div>
                       <h4><a href="blog-post.php">Et dolores corrupti quae illo quod dolor</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
@@ -422,7 +422,7 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
-            <a href="index.php" class="logo d-flex align-items-center">
+            <a href="dashboard.php" class="logo d-flex align-items-center">
               <span>Nova</span>
             </a>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
@@ -493,15 +493,15 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="../assets/js/main.js"></script>
 
 </body>
 
