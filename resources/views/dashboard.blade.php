@@ -11,6 +11,13 @@
                 <div class="flex items-center">
                     <div class="flex-none p-6">
                         <img src="/img/logo.png" alt="" width="500px">
+                        <a href="{{ route('diagnosis', ['id'=>1]) }}" class="bg-green-800 hover:bg-green-400 text-white mt-20 font-bold py-2 px-4 rounded inline-flex items-center">
+                            <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                            <span>Ayo Coba !</span>
+                        </a>
+
                     </div>
                     <div class="p-6 text-gray-900 dark:text-gray-100">
                         <h1 class="text-3xl font-bold leading-tight">
@@ -52,7 +59,6 @@
                         </table>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>

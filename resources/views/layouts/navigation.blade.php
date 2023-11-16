@@ -11,8 +11,14 @@
                 </div>
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('diagnosis')" :active="request()->routeIs('diagnosis')">
+                    <x-nav-link :href="route('diagnosis', ['id' =>1])" :active="request()->routeIs('diagnosis')">
                         {{ __('Diagnosis') }}
+                    </x-nav-link>
+                </div>
+                <!-- Navigation Links -->
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('riwayat')" :active="request()->routeIs('riwayat')">
+                        {{ __('Riwayat') }}
                     </x-nav-link>
                 </div>
             </div>

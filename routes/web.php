@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\DiagnosisController;
+use App\Http\Controllers\RiwayatController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -22,14 +24,17 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/diagnosis', function () {
-    return view('diagnosis');
-})->middleware(['auth', 'verified'])->name('diagnosis');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+
+    Route::get('/diagnosis/{id}', [DiagnosisController::class, 'show'])->name('diagnosis');
+    Route::post('/diagnosis', [DiagnosisController::class, 'store'])->name('diagnosis.store');
+    Route::post('/diagnosis/identity', [DiagnosisController::class, 'storeIdentity'])->name('diagnosis.identity.store');
+
+    Route::get('/riwayat', [RiwayatController::class, 'index'])->name('riwayat');
 });
 
 require __DIR__.'/auth.php';
