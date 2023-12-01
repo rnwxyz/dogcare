@@ -34,10 +34,13 @@
                     <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm w-full pb-20">
                         <div class="h-[29rem] overflow-y-auto">
                             <input type="hidden" name="nama_anjing" value={{$nama_anjing}}>
+                            @php
+                            $num_gejala = 1;
+                            @endphp
                             @foreach($gejala as $gejalaItem)
                             <div class="mx-5 my-5 px-10 py-5 bg-transparent border border-blue-500 text-gray-900 dark:text-gray-100 rounded-lg grid grid-cols-6 gap-4">
                                 <label for='{{($gejalaItem->id)}}' class="text-xl leading-tight col-span-5">
-                                    {{ __('Apakah anjing Anda mengalami gejala ' . $gejalaItem->deskripsi . '?') }}
+                                    {{ __($num_gejala.'. Apakah anjing Anda mengalami gejala ' . $gejalaItem->deskripsi . '?') }}
                                 </label>
                                 <select name='{{($gejalaItem->id)}}' id='{{($gejalaItem->id)}}' class="text-l dark:text-l text-black bg-white-50 border border-white-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-700 dark:border-white-600 dark:placeholder-white-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                     @foreach($kondisi as $kondisiItem)
@@ -45,6 +48,9 @@
                                     @endforeach
                                 </select>
                             </div>
+                            @php
+                            $num_gejala++;
+                            @endphp
                             @endforeach
                         </div>
                     </div>
